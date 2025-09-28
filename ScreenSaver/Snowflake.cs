@@ -26,6 +26,7 @@ namespace ScreenSaver
             Phase = phase;
         }
 
+
         public void Update(float dt, int screenW, int screenH, Random rnd)
         {
             // ровный вертикальный ход
