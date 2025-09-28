@@ -193,6 +193,7 @@ namespace ScreenSaver
 
             if (flakeSrc == null || flakeCache.Count == 0) return;
 
+
             foreach (var s in snowflakes)
             {
                 int sz = ClosestCachedSize((int)Math.Round(s.PixelSize));
@@ -204,6 +205,7 @@ namespace ScreenSaver
                 g.DrawImageUnscaled(bmp, x, y);
             }
         }
+
 
         /// <summary>
         /// Рисую фон в OnPaint, поэтому стандартный фон отключаю.
